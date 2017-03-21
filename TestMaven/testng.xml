@@ -2,6 +2,9 @@
 <suite name="Suite">
   <test name="Test">
   <parameter name="url" value="https://www.google.co.in"/>
+  <parameter name="search_name" value="Meaning of Nitya"/>
+  <parameter name="browser_path" value="webdriver.chrome.driver"/>
+  <parameter name="browser_driver" value="resources/chromedriver"/>
     <classes>
       <class name="com.appdirect.nitya.TestMaven.TestClass"/>
     </classes>
