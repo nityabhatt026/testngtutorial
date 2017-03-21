@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[############]]>
+    </line>
+    <line>
+      <![CDATA[Opening Chrome Browser]]>
+    </line>
+    <line>
+      <![CDATA[Opening Url]]>
+    </line>
+    <line>
+      <![CDATA[Selecting search bar]]>
+    </line>
+    <line>
+      <![CDATA[Making Search]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="5365" started-at="2017-03-21T10:40:46Z" finished-at="2017-03-21T10:40:51Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="5365" started-at="2017-03-21T10:40:46Z" finished-at="2017-03-21T10:40:51Z">
+      <class name="com.appdirect.nitya.TestMaven.TestClass">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.appdirect.nitya.TestMaven.TestClass@224edc67]" name="openBrowser" duration-ms="5349" started-at="2017-03-21T16:10:46Z" finished-at="2017-03-21T16:10:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.google.co.in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[############]]>
+            </line>
+            <line>
+              <![CDATA[Opening Chrome Browser]]>
+            </line>
+            <line>
+              <![CDATA[Opening Url]]>
+            </line>
+            <line>
+              <![CDATA[Selecting search bar]]>
+            </line>
+            <line>
+              <![CDATA[Making Search]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+      </class> <!-- com.appdirect.nitya.TestMaven.TestClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
