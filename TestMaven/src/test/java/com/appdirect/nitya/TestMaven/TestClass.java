@@ -11,10 +11,10 @@ public class TestClass {
 	ChromeDriver driver;
     
 	@Test
-	@Parameters({"url"})
-	public void openBrowser(String url) throws InterruptedException{
+	@Parameters({"url","search_name","browser_path","browser_driver"})
+	public void openBrowser(String url,String search_name,String browser_path,String browser_driver) throws InterruptedException{
 	Reporter.log("############");
-	System.setProperty("webdriver.chrome.driver","resources/chromedriver");
+	System.setProperty(browser_path,browser_driver);
 	Reporter.log("Opening Chrome Browser");
     driver= new	ChromeDriver();
     Reporter.log("Opening Url");
@@ -22,8 +22,8 @@ public class TestClass {
     Reporter.log("Selecting search bar");
     WebElement element = driver.findElement(By.id("lst-ib"));
     Reporter.log("Making Search");
-    element.sendKeys("Meaning of Nitya");
+    element.sendKeys(search_name);
     driver.findElement(By.id("_fZl")).click();
-   // driver.close();
+    
 	}
 }
